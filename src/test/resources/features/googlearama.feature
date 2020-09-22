@@ -5,4 +5,3 @@ Feature: Google Search
     Then controls page title
 
     #yorum satiri bu isaretle  # yapiliyor
-
