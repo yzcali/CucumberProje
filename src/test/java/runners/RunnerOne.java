@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
   plugin ={"html:target/default-cucumber-reports"}, // rapor olusturmak icin
    features = "src/test/resources/features", // features dosyasi adresi
        glue = "stepdefinitions",  //testlerin icinde oldugu package
-        tags = "@searchTechnoProduct",// istediginiz test calistirilir .
-        dryRun =false // senaryoda olusturdugumuz ancak henuz
+        tags = "@amazonExamples",// istediginiz test calistirilir .
+        dryRun =false// senaryoda olusturdugumuz ancak henuz
         // test methodu yazilmamis olan stepslerin methodlarini konsolda
         // gormek icin  dryRun = true  seklinde kullaniyoruz .
 

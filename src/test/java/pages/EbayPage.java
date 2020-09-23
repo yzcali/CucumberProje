@@ -3,23 +3,17 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class AmazonPage {
-    public AmazonPage(){
+public class EbayPage {
+    public EbayPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id="twotabsearchtextbox")
+    @FindBy(id="gh-ac")
     public WebElement searchB;
 
-    @FindBy(className="sg-col-inner")
+    @FindBy(className="srp-controls__count-heading")
     public WebElement resultNo;
-
-    @FindBy(id="searchDropdownBox")
-    public WebElement DropdownB;
-
-
 
 }

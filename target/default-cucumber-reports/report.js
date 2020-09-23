@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Examples.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/mostpro.feature");
 formatter.feature({
-  "name": "search most of the products on amazon",
+  "name": "Search on amazon",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@searchTechnoProduct"
+      "name": "@amazonExamples"
     }
   ]
 });
 formatter.scenarioOutline({
-  "name": "T04 user searches products on amazon",
+  "name": "FR02_user searches on amazon and uses dropDown",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -19,7 +19,11 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "name": "user writes \"\u003cwords\u003e\" on search button",
+  "name": "user selects \"\u003ccategory\u003e\" of dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "user writes \"\u003cword\u003e\" on search button",
   "keyword": "And "
 });
 formatter.step({
@@ -27,51 +31,48 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "name": "names of the products",
+  "name": "words and category",
   "description": "",
   "keyword": "Examples",
   "rows": [
     {
       "cells": [
-        "words"
+        "category",
+        "word"
       ]
     },
     {
       "cells": [
-        "headphones"
+        "Automotive",
+        "phone holder"
       ]
     },
     {
       "cells": [
-        "camera"
+        "Books",
+        "les miserables"
       ]
     },
     {
       "cells": [
-        "drone"
-      ]
-    },
-    {
-      "cells": [
-        "tv"
-      ]
-    },
-    {
-      "cells": [
-        "pencil"
+        "Baby",
+        "stroller"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "T04 user searches products on amazon",
+  "name": "FR02_user searches on amazon and uses dropDown",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@searchTechnoProduct"
+      "name": "@amazonExamples"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user goes to search page of amazon",
@@ -84,7 +85,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user writes \"headphones\" on search button",
+  "name": "user selects \"Automotive\" of dropdown",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user writes \"phone holder\" on search button",
   "keyword": "And "
 });
 formatter.match({
@@ -103,15 +114,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "T04 user searches products on amazon",
+  "name": "FR02_user searches on amazon and uses dropDown",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@searchTechnoProduct"
+      "name": "@amazonExamples"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user goes to search page of amazon",
@@ -124,7 +141,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user writes \"camera\" on search button",
+  "name": "user selects \"Books\" of dropdown",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user writes \"les miserables\" on search button",
   "keyword": "And "
 });
 formatter.match({
@@ -143,15 +170,21 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "T04 user searches products on amazon",
+  "name": "FR02_user searches on amazon and uses dropDown",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@searchTechnoProduct"
+      "name": "@amazonExamples"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user goes to search page of amazon",
@@ -164,7 +197,17 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user writes \"drone\" on search button",
+  "name": "user selects \"Baby\" of dropdown",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user writes \"stroller\" on search button",
   "keyword": "And "
 });
 formatter.match({
@@ -183,84 +226,7 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "T04 user searches products on amazon",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@searchTechnoProduct"
-    }
-  ]
-});
-formatter.step({
-  "name": "user goes to search page of amazon",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user writes \"tv\" on search button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user see at the results of searching and writes it on the console",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "T04 user searches products on amazon",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@searchTechnoProduct"
-    }
-  ]
-});
-formatter.step({
-  "name": "user goes to search page of amazon",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user writes \"pencil\" on search button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user see at the results of searching and writes it on the console",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
+formatter.after({
   "status": "passed"
 });
 });
