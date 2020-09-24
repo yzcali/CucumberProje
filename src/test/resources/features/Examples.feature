@@ -1,4 +1,4 @@
-@searchTechnoProduct
+@searchTechnoProduct @amazon
 Feature: search most of the products on amazon
   Scenario Outline: T04 user searches products on amazon
     Given user goes to search page of amazon

@@ -1,4 +1,4 @@
-@searchProduct01
+@searchProduct01 @amazon
 Feature: Amazon Search
   Background: works like Before Method
     Given user goes to search page of amazon

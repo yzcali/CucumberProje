@@ -1,4 +1,4 @@
-@ebay01
+@ebay
 Feature: ebay Search
 
   Scenario Outline: FR01_user searches on ebay

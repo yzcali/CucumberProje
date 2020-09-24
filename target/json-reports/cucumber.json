@@ -1,0 +1,1083 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:40:04.515Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "T04 user searches products on amazon",
+        "description": "",
+        "id": "search-most-of-the-products-on-amazon;t04-user-searches-products-on-amazon;names-of-the-products;2",
+        "after": [
+          {
+            "result": {
+              "duration": 343000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19492000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3129000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"headphones\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headphones\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchTechnoProduct"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:27.531Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "T04 user searches products on amazon",
+        "description": "",
+        "id": "search-most-of-the-products-on-amazon;t04-user-searches-products-on-amazon;names-of-the-products;3",
+        "after": [
+          {
+            "result": {
+              "duration": 340000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1317000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1950000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"camera\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"camera\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchTechnoProduct"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:31.187Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "T04 user searches products on amazon",
+        "description": "",
+        "id": "search-most-of-the-products-on-amazon;t04-user-searches-products-on-amazon;names-of-the-products;4",
+        "after": [
+          {
+            "result": {
+              "duration": 391000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1558000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2562000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"drone\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drone\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchTechnoProduct"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:35.777Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "T04 user searches products on amazon",
+        "description": "",
+        "id": "search-most-of-the-products-on-amazon;t04-user-searches-products-on-amazon;names-of-the-products;5",
+        "after": [
+          {
+            "result": {
+              "duration": 434000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2144000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"tv\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tv\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchTechnoProduct"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:39.858Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "T04 user searches products on amazon",
+        "description": "",
+        "id": "search-most-of-the-products-on-amazon;t04-user-searches-products-on-amazon;names-of-the-products;6",
+        "after": [
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1027000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6216000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"pencil\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencil\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchTechnoProduct"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "search most of the products on amazon",
+    "description": "",
+    "id": "search-most-of-the-products-on-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Examples.feature",
+    "tags": [
+      {
+        "name": "@searchTechnoProduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 22
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "works like Before Method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1264000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:47.656Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC02_user searches on amazon",
+        "description": "",
+        "id": "amazon-search;tc02-user-searches-on-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 396000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4205000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user writes headphones on search button",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_headphones_yazar_ve_arar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchProduct01"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazon01"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "works like Before Method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1716000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:40:53.666Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC03_user searches on amazon",
+        "description": "",
+        "id": "amazon-search;tc03-user-searches-on-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 440000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1826000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user writes camera on search button",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_camera_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchProduct01"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@amazon02"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonsearch.feature",
+    "tags": [
+      {
+        "name": "@searchProduct01",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:40:57.810Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "FR02_user searches on amazon and uses dropDown",
+        "description": "",
+        "id": "search-on-amazon;fr02-user-searches-on-amazon-and-uses-dropdown;words-and-category;2",
+        "after": [
+          {
+            "result": {
+              "duration": 428000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2821000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"Automotive\" of dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automotive\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4088000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user writes \"phone holder\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phone holder\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonExamples"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:41:05.387Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "FR02_user searches on amazon and uses dropDown",
+        "description": "",
+        "id": "search-on-amazon;fr02-user-searches-on-amazon-and-uses-dropdown;words-and-category;3",
+        "after": [
+          {
+            "result": {
+              "duration": 333000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1345000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"Books\" of dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3299000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user writes \"les miserables\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"les miserables\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonExamples"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-24T19:41:10.563Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "FR02_user searches on amazon and uses dropDown",
+        "description": "",
+        "id": "search-on-amazon;fr02-user-searches-on-amazon-and-uses-dropdown;words-and-category;4",
+        "after": [
+          {
+            "result": {
+              "duration": 409000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1746000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects \"Baby\" of dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Baby\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_selects_of_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4486000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user writes \"stroller\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stroller\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonExamples"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Search on amazon",
+    "description": "",
+    "id": "search-on-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/mostpro.feature",
+    "tags": [
+      {
+        "name": "@amazonExamples",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-24T19:41:17.376Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "T04 user searches a product on amazon",
+        "description": "",
+        "id": "search-product-on-amazon;t04-user-searches-a-product-on-amazon",
+        "after": [
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1343000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to search page of amazon",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1088000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user writes \"drone\" on search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"drone\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.AmazonStepDefinitions.user_writes_on_search_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user see at the results of searching and writes it on the console",
+            "match": {
+              "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchProduct02"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "search product on amazon",
+    "description": "",
+    "id": "search-product-on-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/parametre.feature",
+    "tags": [
+      {
+        "name": "@searchProduct02",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 18
+        }
+      }
+    ]
+  }
+]

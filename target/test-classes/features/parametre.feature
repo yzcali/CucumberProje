@@ -1,4 +1,4 @@
-@searchProduct02
+@searchProduct02 @amazon
 Feature: search product on amazon
   Scenario: T04 user searches a product on amazon
     Given user goes to search page of amazon

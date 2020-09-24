@@ -1,4 +1,4 @@
-@amazonExamples
+@amazonExamples @amazon
 Feature: Search on amazon
 
   Scenario Outline: FR02_user searches on amazon and uses dropDown
