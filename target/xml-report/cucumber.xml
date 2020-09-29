@@ -1,72 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="76.286">
-<testcase classname="search most of the products on amazon" name="T04 user searches products on amazon" time="23.013">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "headphones" on search button...............................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="search most of the products on amazon" name="T04 user searches products on amazon 2" time="3.654">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "camera" on search button...................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="search most of the products on amazon" name="T04 user searches products on amazon 3" time="4.588">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "drone" on search button....................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="search most of the products on amazon" name="T04 user searches products on amazon 4" time="4.079">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "tv" on search button.......................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="search most of the products on amazon" name="T04 user searches products on amazon 5" time="7.788">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "pencil" on search button...................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Search" name="TC02_user searches on amazon" time="6.008">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes headphones on search button.................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Search" name="TC03_user searches on amazon" time="4.134">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes camera on search button.....................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="Search on amazon" name="FR02_user searches on amazon and uses dropDown" time="7.576">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user selects "Automotive" of dropdown...................................passed
-And user writes "phone holder" on search button.............................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="Search on amazon" name="FR02_user searches on amazon and uses dropDown 2" time="5.173">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user selects "Books" of dropdown........................................passed
-And user writes "les miserables" on search button...........................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="Search on amazon" name="FR02_user searches on amazon and uses dropDown 3" time="6.81">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user selects "Baby" of dropdown.........................................passed
-And user writes "stroller" on search button.................................passed
-Then user see at the results of searching and writes it on the console......passed
-]]></system-out>
-</testcase>
-<testcase classname="search product on amazon" name="T04 user searches a product on amazon" time="3.059">
-<system-out><![CDATA[Given user goes to search page of amazon....................................passed
-And user writes "drone" on search button....................................passed
-Then user see at the results of searching and writes it on the console......passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.457">
+<testcase classname="Koala Palace" name="TC09_kullanici bilgileri girerek hotel olusturur" time="26.837">
+<system-out><![CDATA[Given kullanici koalapalace admin sayfasina gider...........................passed
+And kullanici kullaniciadi ve sifresini girer...............................passed
+Then kullanici giris islemini gerceklestirir................................passed
+Given kullanici hotelcreate sayfasina gider.................................passed
+And kullanici hotelcreate code bolumune "1234" girer........................passed
+And kullanici hotelcreate name bolumune "test" girer........................passed
+And kullanici hotelcreate adress bolumune "cikmaz sokak" girer..............passed
+And kullanici hotelcreate phone bolumune "0539123456" girer.................passed
+And kullanici hotelcreate email bolumune "hamza@tech.com" girer.............passed
+And kullanici hotelcreate idgroup bolumunde "Hotel Type1" secer.............passed
+And kullanici hotelcreate save butonuna tiklar..............................passed
+Then kullanici hotelcreate kayit islemini assert eder.......................passed
 ]]></system-out>
 </testcase>
 </testsuite>
