@@ -17,9 +17,20 @@ Feature: Koala Palace
     And kullanici hotelcreate save butonuna tiklar
     Then kullanici hotelcreate kayit islemini assert eder
 
-
-
-
+  @hotelroomcreate
+  Scenario: TC10_kullanici bilgleri girerek hotel room olusturur
+    Given kullanici hotelroomcreate sayfasina gider
+    And kullanici hotelroomcreate idhotel bolumunde "star" secer
+    And kullanici hotelroomcreate code bolumune "12345" girer
+    And kullanici hotelroomcreate name bolumune "Techproed" girer
+    And kullanici hotelroomcreate location bolumune "USA" girer
+    And kullanici hotelroomcreate description bolumune "ne yazik ki aciklama yok" girer
+    And kullanici hotelroomcreate price bolumune fiyat girer
+    And kullanici hotelroomcreate roomtype bolumunde "Single" secer
+    And kullanici hotelroomcreate maxadult bolumune "2" girer
+    And kullanici hotelroomcreate maxchildren bolumune "3" girer
+    And kullanici hotelroomcreate save butonuna tiklar
+    Then kullanici hotelroomcreate kayit islemini assert eder
 
 
 

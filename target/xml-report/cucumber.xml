@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.457">
-<testcase classname="Koala Palace" name="TC09_kullanici bilgileri girerek hotel olusturur" time="26.837">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="54.889">
+<testcase classname="Koala Palace" name="TC09_kullanici bilgileri girerek hotel olusturur" time="23.963">
 <system-out><![CDATA[Given kullanici koalapalace admin sayfasina gider...........................passed
 And kullanici kullaniciadi ve sifresini girer...............................passed
 Then kullanici giris islemini gerceklestirir................................passed
@@ -13,6 +13,24 @@ And kullanici hotelcreate email bolumune "hamza@tech.com" girer.............pass
 And kullanici hotelcreate idgroup bolumunde "Hotel Type1" secer.............passed
 And kullanici hotelcreate save butonuna tiklar..............................passed
 Then kullanici hotelcreate kayit islemini assert eder.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Koala Palace" name="TC10_kullanici bilgleri girerek hotel room olusturur" time="30.572">
+<system-out><![CDATA[Given kullanici koalapalace admin sayfasina gider...........................passed
+And kullanici kullaniciadi ve sifresini girer...............................passed
+Then kullanici giris islemini gerceklestirir................................passed
+Given kullanici hotelroomcreate sayfasina gider.............................passed
+And kullanici hotelroomcreate idhotel bolumunde "star" secer................passed
+And kullanici hotelroomcreate code bolumune "12345" girer...................passed
+And kullanici hotelroomcreate name bolumune "Techproed" girer...............passed
+And kullanici hotelroomcreate location bolumune "USA" girer.................passed
+And kullanici hotelroomcreate description bolumune "ne yazik ki aciklama yok" girer.passed
+And kullanici hotelroomcreate price bolumune fiyat girer....................passed
+And kullanici hotelroomcreate roomtype bolumunde "Single" secer.............passed
+And kullanici hotelroomcreate maxadult bolumune "2" girer...................passed
+And kullanici hotelroomcreate maxchildren bolumune "3" girer................passed
+And kullanici hotelroomcreate save butonuna tiklar..........................passed
+Then kullanici hotelroomcreate kayit islemini assert eder...................passed
 ]]></system-out>
 </testcase>
 </testsuite>
