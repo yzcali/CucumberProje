@@ -32,6 +32,40 @@ Feature: Koala Palace
     And kullanici hotelroomcreate save butonuna tiklar
     Then kullanici hotelroomcreate kayit islemini assert eder
 
+  @hotelreservationcreate
+  Scenario: TC11_kullanici bilgileri girerek room reservation olusturur
+    Given kullanici hotelroomreservation sayfasina gider
+    And kullanici roomreservation iduser bolumunde "manager2" secer
+    And kullanici roomreservation idhotelroom bolumunde "Hilton" secer
+    And kullanici roomreservation price bolumune "500" girer
+    And kullanici roomreservation datestart bolumune "10/10/2020" girer
+    And kullanici roomreservation dateend bolumune "10/17/2020" girer
+    And kullanici roomreservation adultamaount bolumune "2" girer
+    And kullanici roomreservation childrenamount bolumune "3" girer
+    And kullanici roomreservation namesurname bolumune "Hamza Yılmaz" girer
+    And kullanici roomreservation phone bolumune "0500600700" girer
+    And kullanici roomreservation email bolumune "hamza@gmail.com" girer
+    And kullanici roomreservation notes bolumune "Testerlardan selam.." girer
+    And kullanici roomreservation save butonuna tiklar
+    Then kullanici roomreservation kayit islemini assert eder
+
+  @hotelreservationcreate @hotelreservationnegativetest1
+  Scenario: TC12_kullanici iduser secmeden room reservation olusturur
+    Given kullanici hotelroomreservation sayfasina gider
+  #Bu adımı sildim : And kullanici roomreservation iduser bolumunde "manager2" secer
+    And kullanici roomreservation idhotelroom bolumunde "Hilton" secer
+    And kullanici roomreservation price bolumune "500" girer
+    And kullanici roomreservation datestart bolumune "10/10/2020" girer
+    And kullanici roomreservation dateend bolumune "10/17/2020" girer
+    And kullanici roomreservation adultamaount bolumune "2" girer
+    And kullanici roomreservation childrenamount bolumune "3" girer
+    And kullanici roomreservation namesurname bolumune "Hamza Yılmaz" girer
+    And kullanici roomreservation phone bolumune "0500600700" girer
+    And kullanici roomreservation email bolumune "hamza@gmail.com" girer
+    And kullanici roomreservation notes bolumune "Testerlardan selam.." girer
+    And kullanici roomreservation save butonuna tiklar
+    Then kullanici roomreservation kayit isleminin basarisiz oldugunu assert eder
+
 
 
 

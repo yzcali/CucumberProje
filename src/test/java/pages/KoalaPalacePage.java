@@ -56,6 +56,35 @@ public class KoalaPalacePage {
     public WebElement hotelRoomCreateSaveButonu ;
     @FindBy ( className = "bootbox-body")
     public WebElement hotelRoomCreateBasariliYazisi;
+    @FindBy ( id = "IDUser" )
+    public WebElement hotelRoomReservationCreateIDUserDropdown;
+    @FindBy ( id = "IDHotelRoom")
+    public WebElement hotelRoomReservationCreateIDHotelRoomDropdown ;
+    @FindBy ( id = "Price")
+    public WebElement hotelRoomReservationCreatePriceKutusu ;
+    @FindBy ( id = "DateStart")
+    public WebElement hotelRoomReservationCreateDateStartKutusu ;
+    @FindBy ( id = "DateEnd")
+    public WebElement hotelRoomReservationCreateDateEndKutusu ;
+    @FindBy ( id = "AdultAmount")
+    public WebElement hotelRoomReservationCreateAdultAmountKutusu ;
+    @FindBy ( id = "ChildrenAmount")
+    public WebElement hotelRoomReservationCreateChildrenAmountKutusu ;
+    @FindBy ( id = "ContactNameSurname")
+    public WebElement hotelRoomReservationCreateNameSurnameKutusu ;
+    @FindBy ( id = "ContactPhone")
+    public WebElement hotelRoomReservationCreatePhoneKutusu ;
+    @FindBy ( id = "ContactEmail")
+    public WebElement hotelRoomReservationCreateEmailKutusu ;
+    @FindBy ( id = "Notes")
+    public WebElement hotelRoomReservationCreateNotesKutusu ;
+    @FindBy ( id = "btnSubmit")
+    public WebElement hotelRoomReservationCreateSaveButonu ;
+    @FindBy ( className = "bootbox-body")
+    public WebElement hotelRoomReservationCreateBasariliYazisi;
+
+    @FindBy ( xpath = "//label[@class='error']")
+    public WebElement hataMesaji;
 
 
 
