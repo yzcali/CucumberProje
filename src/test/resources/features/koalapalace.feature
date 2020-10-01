@@ -66,6 +66,17 @@ Feature: Koala Palace
     And kullanici roomreservation save butonuna tiklar
     Then kullanici roomreservation kayit isleminin basarisiz oldugunu assert eder
 
+@hotelroomsearch
+Scenario: TC_24 kullanici hotelroomlist sayfasinda verileri girerek hotelroom arar
+  Given kullanici hotelroomlist sayfasina gider
+    And kullanici hotelroomlist idhotelbolumunde "Star" secer
+    And kullanici hotelroomlist code bolumune "12345" girer
+    And kullanici hotelroomlist name bolumune "Techproed" girer
+    And kullanici hotelroomlist location bolumune "USA" girer
+    And kullanici hotelroomlist search butonuna tiklar
+    Then kullanici hotelroomlist bolumundeki kayitlari inceler
+
+
 
 
 
